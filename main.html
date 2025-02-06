@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="0; url=registrationPage.html"> -->
+    <title>Library</title>
+    <link rel="stylesheet" href="Styles/maincontent.css">
+</head>
+<body>
+   <header>
+    <div class="nav">
+        <div class="container">
+          <div class="btn" id="home">Home</div>
+          <div class="btn" id="contact">Contact</div>
+          <div class="btn" id="about">About</div>
+          <div class="btn" id="searchToggle">Search book</div>
+          <div class="btn" id="logOut">Log out</div>
+          <svg
+            class="outline"
+            overflow="visible"
+            width="400"
+            height="60"
+            viewBox="0 0 600 80"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect
+              class="rect"
+              pathLength="100"
+              x="0"
+              y="0"
+              width="400"
+              height="60"
+              fill="transparent"
+              stroke-width="5"></rect>
+          </svg>
+        </div>
+      </div>
+      
+   </header>
+   <div id="contactContainer" style="display: none;"></div>
+   <div id="aboutContainer" style="display: none;"></div>
+   <div id="searchContainer" style="display: none;">
+
+
+
+
+
+    
+    <input type="text" placeholder="" id="filter">
+    <button onclick="search()">Search</button>
+    <div class="res"></div>
+  </div>
+ 
+
+  <div class="slider">
+    <div class="slides">
+        <img src="photos/Most_Beautiful_Libraries.webp" class="slide" alt="Slide 1">
+        <img src="photos/Most_Beautiful_Libraries.webp" class="slide" alt="Slide 2">
+        <img src="photos/Most_Beautiful_Libraries.webp" class="slide" alt="Slide 3">
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+</div>
+
+
+
+  
+    <script src="script/main.js"></script>
+</body>
+</html>
